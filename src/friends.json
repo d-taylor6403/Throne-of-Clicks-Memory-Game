@@ -1,0 +1,110 @@
+[
+	{
+		"id": 1,
+		"name": "Khaleesi",
+		"image": "./public/images/image1.jpg",
+		"click": false
+	},
+	{
+		"id": 2,
+		"name": "Khal Drogo",
+		"image": "./public/images/image2.jpg",
+		"click": false
+	},
+	{
+		"id": 3,
+		"name": "Viserys",
+		"image": "/public/images/image3.jpg",
+		"click": false
+	},
+	{
+		"id": 4,
+		"name": "Robert Baratheon",
+		"image": "/public/images/image4.jpg",
+		"click": false
+	},
+	{
+		"id": 5,
+		"name": "Stannis Baratheon",
+		"image": "/public/images/image5.jpg",
+		"click": false
+	},
+	{
+		"id": 6,
+		"name": "Renly Baratheon",
+		"image": "/public/images/image6.jpg",
+		"click": false
+	},
+	{
+		"id": 7,
+		"name": "Cersei Lannister",
+		"image": "/public/images/image7.jpg",
+		"click": false
+	},
+	{
+		"id": 8,
+		"name": "Jamie Lannister",
+		"image": "/public/images/image8.jpg",
+		"click": false
+	},
+	{
+		"id": 9,
+		"name": "Tyrion Lannister",
+		"image": "/public/images/image9.jpg",
+		"click": false
+	},
+	{
+		"id": 10,
+		"name": "Tywin Lannister",
+		"image": "/public/images/image10.jpg",
+		"click": false
+	},
+	{
+		"id": 11,
+		"name": "Joffrey",
+		"image": "/public/images/image11.jpg",
+		"click": false
+	},
+	{
+		"id": 12,
+		"name": "Ned Stark",
+		"image": "/public/images/image12.jpg",
+		"click": false
+	},
+	{
+		"id": 13,
+		"name": "Sansa Stark",
+		"image": "/public/images/image13.jpg",
+		"click": false
+	},
+	{
+		"id": 14,
+		"name": "Bran Stark",
+		"image": "/public/images/image14.jpg",
+		"click": false
+	},
+	{
+		"id": 15,
+		"name": "Arya Stark",
+		"image": "/public/images/image15.jpg",
+		"click": false
+	},
+	{
+		"id": 16,
+		"name": "Jon Snow",
+		"image": "/public/images/image16.jpg",
+		"click": false
+	},
+	{
+		"id": 17,
+		"name": "Margaery Tyrell",
+		"image": "/public/images/image17.jpg",
+		"click": false
+	},
+	{
+		"id": 18,
+		"name": "Missandei",
+		"image": "/public/images/image18.jpg",
+		"click": false
+	}
+]
