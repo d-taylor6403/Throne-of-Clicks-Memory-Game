@@ -6,7 +6,7 @@ This app was deployed using Heroku and can be viewed [here]()
 
 ### Demo
 
-![Animated Demo](https://)
+![Animated Demo](https://github.com/d-taylor6403/Throne-of-Clicks-Memory-Game/blob/master/public/Throne%20of%20Clicks_%20Memory%20Game.gif)
 
 #### Requires the following Package Installations:
 * HTML
@@ -44,11 +44,11 @@ src: In the src folder, there are 4 main parts of the application to pay attenti
 
 index.js: The index.js file is the top level file of the React application. In index.js, the App.js file is imported, and the ReactDOM.render method is used to render App.js to the page.
 
-App.js: The App.js file is where the application components are imported and rendered, such as the navigation bar, footer, and player images. This file also defines a class that allows various states of the application to be updated throughout the game, including the score, top score, a character's clicked value, and the game message displayed in the top navigation bar.
+App.js: The App.js file is where the application components are imported and rendered, such as the navigation bar, footer, and character images. This file also defines a class that allows various states of the application to be updated throughout the game, including the score, top score, a character's clicked value, and the game message displayed in the top navigation bar.
 
 Components: The Components folder is where the app components are located. Each file represents a separate component. For example, Navbar.js is the top navigation bar component.
 
-players.json: The players.json file contains an array of objects. Each object is a character that gets rendered to the page. Each object contains four properties, id, name, image, and clicked. By default, clicked is set to false. When the user clicks a character, that character's clicked value gets set to true so that the application can keep track of which players have already been clicked (clicked is true) and which character has not been clicked (clicked is false).
+players.json: The players.json file contains an array of objects. Each object is a character that gets rendered to the page. Each object contains four properties, id, name, image, and clicked. By default, clicked is set to false. When the user clicks a character, that character's clicked value gets set to true so that the application can keep track of which characters have already been clicked (clicked is true) and which character has not been clicked (clicked is false).
 
 package.json: Lists the project dependencies and their version numbers.
 
