@@ -2,109 +2,97 @@
 	{
 		"id": 1,
 		"name": "Khaleesi",
-		"image": "./public/images/image1.jpg",
+		"image": "https://i.insider.com/59a32baf701afc49008b4695?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 2,
 		"name": "Khal Drogo",
-		"image": "./public/images/image2.jpg",
+		"image": "https://i.insider.com/5c9422083701a60806171872?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 3,
 		"name": "Viserys",
-		"image": "/public/images/image3.jpg",
+		"image": "https://i.insider.com/5772c8b80aec95f6368b4aff?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 4,
 		"name": "Robert Baratheon",
-		"image": "/public/images/image4.jpg",
+		"image": "https://i.insider.com/5772c8950aec9516008b5153?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 5,
 		"name": "Stannis Baratheon",
-		"image": "/public/images/image5.jpg",
-		"click": false
-	},
-	{
-		"id": 6,
-		"name": "Renly Baratheon",
-		"image": "/public/images/image6.jpg",
+		"image": "https://i.insider.com/579bb4050aec9518008b6ab6?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 7,
 		"name": "Cersei Lannister",
-		"image": "/public/images/image7.jpg",
+		"image": "https://i.insider.com/5c9424d73701a6083d3faef2?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 8,
 		"name": "Jamie Lannister",
-		"image": "/public/images/image8.jpg",
+		"image": "https://i.insider.com/5c94255a75d0c7097d0e4a12?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 9,
 		"name": "Tyrion Lannister",
-		"image": "/public/images/image9.jpg",
-		"click": false
-	},
-	{
-		"id": 10,
-		"name": "Tywin Lannister",
-		"image": "/public/images/image10.jpg",
+		"image": "https://i.insider.com/5c9425fe75d0c70995553162?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 11,
 		"name": "Joffrey",
-		"image": "/public/images/image11.jpg",
+		"image": "https://i.insider.com/5c94265e77d4f908964a0633?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 12,
 		"name": "Ned Stark",
-		"image": "/public/images/image12.jpg",
+		"image": "https://i.insider.com/5c9426cd75d0c709b21ba683?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 13,
 		"name": "Sansa Stark",
-		"image": "/public/images/image13.jpg",
+		"image": "https://i.insider.com/5c94271f75d0c709c4586fe3?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 14,
 		"name": "Bran Stark",
-		"image": "/public/images/image14.jpg",
+		"image": "https://i.insider.com/5c94273cd810d209b675be33?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 15,
 		"name": "Arya Stark",
-		"image": "/public/images/image15.jpg",
+		"image": "https://i.insider.com/5c94276ad810d209c17c9a82?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 16,
 		"name": "Jon Snow",
-		"image": "/public/images/image16.jpg",
+		"image": "https://i.insider.com/57b4cabb04732f18008b4e47?width=700&format=jpeg&auto=webp",
 		"click": false
 	},
 	{
 		"id": 17,
 		"name": "Margaery Tyrell",
-		"image": "/public/images/image17.jpg",
+		"image": "https://i.insider.com/5b48d34820e3a825008b466d?width=700&format=jpeg&auto=webpg",
 		"click": false
 	},
 	{
 		"id": 18,
 		"name": "Missandei",
-		"image": "/public/images/image18.jpg",
+		"image": "https://i.insider.com/59654b080f4a4427008b45a4?width=700&format=jpeg&auto=webp",
 		"click": false
 	}
 ]

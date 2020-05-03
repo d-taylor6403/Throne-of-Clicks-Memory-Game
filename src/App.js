@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Card from './Components/Card';
-import Wrapper from './Components/Wrapper';
-import friends from './friends.json';
-import './App.css';
+import React, { Component } from "react";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Card from "./Components/Card";
+import Wrapper from "./Components/Wrapper";
+import friends from "./friends.json";
+import "./App.css";
 
 class App extends Component {
-	//Setting this.state.friends to the friends json array
+	// Setting this.state.friends to the friends json array
 	state = {
 		friends,
 		score: 0,
@@ -17,76 +17,84 @@ class App extends Component {
 
 	resetGame = () => {
 		this.setState({ topScore: 0, score: 0, newTopScore: 0 });
-		console.log(this.state.topScore);
+		console.log(this.state.topScore)
 		friends.sort((a, b) => 0.5 - Math.random());
 	};
 
-	onClick = (id) => {
-		//filter for the clicked match
-		const friends = this.state.friends;
-		const clickedFriend = this.state.friends.filter((friend) => friend.id === id);
+	onClick = id => {
 
-		//if the matched image's clicked value is already true, do the game over actions
+		// Filter for the clicked match
+		const friends = this.state.friends
+		const clickedFriend = this.state.friends.filter(friend => friend.id === id);
+
+		// If the matched image's clicked value is already true, do the game over actions
 		if (clickedFriend[0].click) {
-			//Shuffle the array to be rendered in random order
+
+			// Shuffle the array to be rendered in a random order
 			friends.sort((a, b) => 0.5 - Math.random());
 
-			//reset state with appropriate values/new shuffled friend array
+			// reset state with appropriate values/new shuffled friends array
 			this.setState({ topScore: this.state.score, score: 0, newTopScore: this.state.newTopScore });
 
-			//if the score is greate than the topscore, the top score becomes the newest top score
+			// if the score is greater than the topscore, store the top score to the newest top score
 			if (this.state.score > this.state.topScore) {
 				this.setState({ newTopScore: this.state.topScore });
 			}
 
-			//reset all friend card's "click" value to false
+			// reset all friend card's "click" value to false
 			for (var i = 0; i < friends.length; i++) {
 				friends[i].click = false;
 			}
 
-			alert('You hit the same card twice! Drakaras!');
+			alert("You hit the same card twice! Drakaras");
 
-			//if clicked = false and the user hasn't finished
-		}
-		else if (this.state.score < 18) {
-			//set the clicked value to true
+			// Otherwise, if clicked = false, and the user hasn't finished
+		} else if (this.state.score < 12) {
+			// Set its value to true
 			clickedFriend[0].click = true;
 
-			//increment the counter
+			// increment the appropriate counter
 			this.setState({ score: this.state.score + 1 });
 
-			//Shuffle the array to be rendered in a random order
+			// Shuffle the array to be rendered in a random order
 			friends.sort((a, b) => 0.5 - Math.random());
-		}
-		else {
-			//if the user has won (guessed all 18 correctly), restart the score counter
+
+
+		} else {
+			// if the user has won (guessed all 12 correctly), restart the guess counter
 			this.setState({ score: 0, topScore: 0, newTopScore: 0 });
+			// Send the user a message to play again
 
-			alert('The Throne is Yours!');
+			alert('The Throne Is Yours!')
 
-			//Shuffle the array to be rendered in random order
+			// Shuffle the array to be rendered in a random order
 			friends.sort((a, b) => 0.5 - Math.random());
-		}
-	};
 
-	//Map over this.state.friends and render a Card compnent for each object
+		}
+
+	}
+
+	// Map over this.state.friends and render a Card component for each object
 	render() {
-		return (
-			<div>
-				<Header score={this.state.score} topScore={this.state.topScore} resetGame={this.resetGame} />
-				<Wrapper>
-					{this.state.friends.map((friend) => (
-						<Card
-							onClick={this.onClick}
-							if={friend.id}
-							key={friend.id}
-							image={friend.image}
-							click={friend.click}
-						/>
-					))}
-				</Wrapper>
-				<Footer />
-			</div>
+		return (<>
+			<Header
+				score={this.state.score}
+				topScore={this.state.topScore}
+				resetGame={this.resetGame}
+			/>
+			<Wrapper>
+				{this.state.friends.map(friend => (
+					<Card
+						onClick={this.onClick}
+						id={friend.id}
+						key={friend.id}
+						image={friend.image}
+						click={friend.click}
+					/>
+				))}
+			</Wrapper>
+			<Footer></Footer>
+		</>
 		);
 	}
 }

@@ -1,0 +1,13 @@
+.title {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#main {
+	background: rgb(77, 4, 4);
+	/* background-repeat: no-repeat; */
+	background-position: center;
+	/* background-size: cover; */
+	background-attachment: fixed;
+}

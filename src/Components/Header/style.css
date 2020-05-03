@@ -1,0 +1,26 @@
+.instructions,
+h1,
+h2 {
+	font-family: 'Metal Mania', cursive;
+}
+
+.btn {
+	background-color: rgb(77, 4, 4);
+	border-color: rgb(14, 1, 1);
+}
+
+.btn:hover {
+	background-color: rgb(77, 4, 4);
+	border-color: rgb(14, 1, 1);
+}
+
+.instructionsHeader {
+	margin-left: 500px;
+	margin-bottom: 60px;
+	margin-top: 70px;
+	font-family: 'Metal Mania', cursive;
+}
+
+h2 {
+	font-size: 50px;
+}
