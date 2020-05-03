@@ -2,7 +2,7 @@
 
 Test your memory and drive to sit  on the Iron Throne with the Clicky Game. Throne of Clicks is a memory skill application built using React. The goal of this assignment was to demonstrate mastery of React along with Express. Each time a user clicks a character's image, the score is incremented by 1. If the user clicks the same character twice, the game is reset.
 
-This app was deployed using Heroku and can be viewed [here]()
+This app was deployed using Heroku and can be viewed [here](https://throneofclicks.herokuapp.com/)
 
 ### Demo
 
